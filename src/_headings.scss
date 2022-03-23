@@ -11,7 +11,6 @@
   --ct-heading-font-style: normal;
 
   --ct-header-height: 42px;
-  --ct-topbar-backdrop: blur(20px);
 }
 
 /* Heading & Page title */
@@ -37,6 +36,10 @@ a.title h1.title {
   font-style: var(--ct-heading-font-style);
   color: var(--ct-heading-color);
   text-shadow: var(--ct-heading-text-shadow, none);
+}
+
+.cp__header {
+  background: var(--ls-secondary-background-color);
 }
 
 .cp__header,
